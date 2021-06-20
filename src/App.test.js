@@ -14,3 +14,18 @@ test("renders non-empty component without crashing", () => {
   // use exists() to test if wrapper is not empty.
   expect(wrapper.exists()).toBe(true);
 });
+
+/*
+Types of Tests
+1. Unit Tests
+  - Tests one piece of code (usually one function)
+2. Integration Tests
+  - How multiple units work together
+3. Acceptance / End-to-End (E2E) Tests
+  - Uses actual browser and connections to server
+4. Functional Tests
+  - Can be any of the above; focuses on user flow
+
++++ Code-base Tests == Testing Implementation
++++ Functional Tests == Testing Behavior
+*/
